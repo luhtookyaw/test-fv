@@ -1,0 +1,9 @@
+# Python 3.12; CPU inference as configured in test_model.py.
+insightface==2.1
+numpy==2.5.4
+opencv-python==5.0.0.93
+onnxruntime==1.31.1
+
+# InsightFace's face_align.py needs the local from_estimate patch with this
+# version. Installing requirements does not reproduce that site-packages edit.
+scikit-image==0.26.0
